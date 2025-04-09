@@ -81,4 +81,5 @@ Dataset-ში გვხვდება YearRemodAdd column, რისი მნ
 4. [Lasso Regression](https://dagshub.com/b3tameche/kaggle-house-prices.mlflow/#/experiments/8)
 5. [Random Forest](https://dagshub.com/b3tameche/kaggle-house-prices.mlflow/#/experiments/9)
 
+პრეპროცესორის ექსპერიმენტში დალოგილი მაქვს საერთო preprocessor pipeline და target variable-ს განაწილება log scaling-ამდე და შემდეგ.  
 თითო მოდელის ექსპერიმენტში დალოგილი მაქ grid search-ის ჰიპერპარამეტრების pool-ი, შერჩეული საუკეთესო პარამეტრები და RMSE score-ები train-ზეც და test-ზეც, და თვითონ საუკეთესო pipeline-ები.
